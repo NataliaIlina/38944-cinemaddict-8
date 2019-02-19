@@ -1,7 +1,7 @@
 # Личный проект «Киноман» [![Build status][travis-image]][travis-url]
 
-* Студент: [Наталья Ильина](https://up.htmlacademy.ru/ecmascript/8/user/38944).
-* Наставник: `Неизвестно`.
+- Студент: [Наталья Ильина](https://up.htmlacademy.ru/ecmascript/8/user/38944).
+- Наставник: `Студент без наставника`.
 
 ---
 
