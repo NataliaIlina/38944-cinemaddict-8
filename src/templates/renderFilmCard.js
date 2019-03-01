@@ -1,25 +1,22 @@
-const renderFilmCard = () => `<article class="film-card">
+const renderFilmCard = data => `<article class="film-card">
 <h3 class="film-card__title">
-  The Assassination Of Jessie James By The Coward Robert Ford
+  ${data.title}
 </h3>
-<p class="film-card__rating">9.8</p>
+<p class="film-card__rating">${data.rating}</p>
 <p class="film-card__info">
-  <span class="film-card__year">2018</span>
-  <span class="film-card__duration">1h&nbsp;13m</span>
-  <span class="film-card__genre">Comedy</span>
+  <span class="film-card__year">${data.year}</span>
+  <span class="film-card__duration">${data.duration}</span>
+  <span class="film-card__genre">${data.genre}</span>
 </p>
 <img
-  src="./images/posters/three-friends.jpg"
+  src="./images/posters/${data.poster}.jpg"
   alt=""
   class="film-card__poster"
 />
 <p class="film-card__description">
-  A priest with a haunted past and a novice on the threshold of
-  her final vows are sent by the Vatican to investigate the death
-  of a young nun in Romania and confront a malevolent force in the
-  form of a demonic nun.
+  ${data.description}
 </p>
-<button class="film-card__comments">13 comments</button>
+<button class="film-card__comments">${data.comments} comments</button>
 
 <form class="film-card__controls">
   <button
